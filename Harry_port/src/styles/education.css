@@ -1,0 +1,26 @@
+.edu-main{
+    /* width: 800px; */
+
+    display: flex;
+   flex-direction: row;
+    scrollbar-width: none;
+   
+    align-items: start;
+    justify-content: flex-start;
+    overflow: hidden;
+    /* overflow-x: scroll; */
+
+}
+.ug{
+    /* display: block; */
+    width: 80vw;
+    height: 60vh;
+}
+.hsc{
+    width: 80vw;
+    height: 60vh;
+}
+.ssc{
+    width: 80vw;
+    height: 60vh;
+}

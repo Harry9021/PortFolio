@@ -1,0 +1,76 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background: #000000;
+    align-items: center;
+}
+
+.name-main {
+    font-size: 12px;
+}
+
+.name {
+    font-size: calc(24px + (32 - 24) * ((100vw - 320px) / (1600 - 320)));
+    font-family: "Edu AU VIC WA NT Hand";
+    font-weight: 600;
+}
+
+.stud {
+    font-size: calc(6px + (24 - 16) * ((100vw - 320px) / (1600 - 320)));
+}
+
+.social {
+    display: flex;
+
+    div {
+        margin: 0px 10px
+    }
+
+    .number {
+        padding: 5px 0;
+        font-size: calc(13px + (24 - 16) * ((100vw - 320px) / (1600 - 320)));
+    }
+}
+
+.hello{
+    font-size: calc(28px + (32 - 24) * ((100vw - 320px) / (1600 - 320)));
+    text-align: center;
+    padding: 4vh;
+    font-family: "Finger Paint";
+}
+
+.summary {
+    display: flex;
+    height: 70vh;
+    align-items: start;
+    justify-content: center;
+}
+
+.sum-1 {
+    /* position: absolute; */
+    padding: 90px 50px;
+    /* text-align: center; */
+    width: 50vw;
+    font-family: "Roboto Slab";
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    >span {
+        font-size: calc(24px + (32 - 24) * ((100vw - 320px) / (1600 - 320)));
+    }
+}
+
+.sum-2 {
+    width: 50vw;
+    padding: 50px;
+
+    >img {
+        width: 70%;
+        height: 50%;
+        border-radius: 10vw;
+    }
+
+}
