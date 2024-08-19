@@ -4,6 +4,7 @@ import Education from "./components/Education";
 import Projects from "./components/Projects";
 import ScrollProgressBar from "./components/ScrollProgressBar";
 import Skills from "./components/Skills";
+import Experience from "./components/Experience";
 
 function App() {
     return (
@@ -21,7 +22,9 @@ function App() {
             <div className="projects">
                 <Projects />
             </div>
-            <div className="experience"></div>
+            <div className="experience">
+                <Experience />
+            </div>
         </>
     );
 }

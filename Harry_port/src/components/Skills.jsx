@@ -25,7 +25,7 @@ export default function Skills() {
                     />
                 </div>
                 <div className="pros">
-                    <div className="pro-title">
+                    <div className="pro-title" style={{display:"flex", alignItems:"center" }}>
                         <GiSkills
                             style={{ width: 40, height: 40, paddingRight: 10 }}
                         />

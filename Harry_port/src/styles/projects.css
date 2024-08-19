@@ -29,11 +29,19 @@
     display: flex;
 }
 
-.pro-desc{
-    font-size: 18px;
+.proj{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
     font-weight: 500;
     font-family: "Edu AU VIC WA NT Hand";
-    padding: 50px 100px 0 0;     
+}
+
+.pro-desc{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Edu AU VIC WA NT Hand";
+    padding: 0px 100px 0 0;     
 }
 
 .git-linker{

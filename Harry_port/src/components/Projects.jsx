@@ -26,23 +26,29 @@ export default function Projects() {
                     />
                 </div>
                 <div className="pros">
-                    <div className="pro-title">
+                    <div
+                        className="pro-title"
+                        style={{ display: "flex", alignItems: "center" }}
+                    >
                         <SiTheodinproject
                             style={{ width: 40, height: 40, paddingRight: 10 }}
                         />
-                        1) Lost And Found :{" "}
+                        My Project{" "}
                     </div>
                     <hr />
-                    <div className="pro-cont">
-                        <div className="pro-desc">
-                            The "Lost and Found" project aims to develop a
-                            comprehensive system to help individuals report and
-                            locate lost items. The system will provide a
-                            platform for users to report lost items, search for
-                            items that have been found, and connect with others
-                            to return or claim belongings. I handle the backend
-                            for the "Lost and Found" project, database
-                            management, and user authentication
+                    <div className="pro-cont ">
+                        <div>
+                            <div className="proj">1) Lost And Found</div>
+                            <div className="pro-desc">
+                                The "Lost and Found" project aims to develop a
+                                comprehensive system to help individuals report
+                                and locate lost items. The system will provide a
+                                platform for users to report lost items, search
+                                for items that have been found, and connect with
+                                others to return or claim belongings. I handle
+                                the backend for the "Lost and Found" project,
+                                database management, and user authentication
+                            </div>
                         </div>
                         <div className="git-linker">
                             <div className="emote">Link to my project </div>
@@ -61,29 +67,39 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div style={{display:"flex", justifyContent:"space-between"}}>
+                    <div
+                        style={{
+                            display: "flex",
+                            justifyContent: "space-between",
+                        }}
+                    >
                         <div>
-                        <div className="pro-duration">
-                            <div className="pro-duration-dates">
-                                <div className="from-d">From: Dec 2023</div>
-                                <div style={{ width: 60 }}></div>
+                            <div className="pro-duration">
+                                <div className="pro-duration-dates">
+                                    <div className="from-d">From: Dec 2023</div>
+                                    <div style={{ width: 60 }}></div>
 
-                                <div className="to-d"> To: Jan 2024</div>
+                                    <div className="to-d"> To: Jan 2024</div>
+                                </div>
+                                <div className="pro-duration-title">
+                                    Duration: 8 weeks
+                                </div>
                             </div>
-                            <div className="pro-duration-title">
-                                Duration: 8 weeks
+                            <div className="pro-duration">
+                                ---&gt; Tools & technologies used: ReactJS,
+                                Express.js, Node.js, MongoDB
                             </div>
-                        </div>
-                        <div className="pro-duration">
-                            ---&gt; Tools & technologies used: ReactJS,
-                            Express.js, Node.js, MongoDB
-                        </div>
                         </div>
                         <div>
                             <img
                                 src={Projector}
                                 alt=""
-                                style={{ width: 220, height: 220, paddingTop:30, borderRadius:20}}
+                                style={{
+                                    width: 220,
+                                    height: 220,
+                                    paddingTop: 30,
+                                    borderRadius: 20,
+                                }}
                             />
                         </div>
                     </div>
