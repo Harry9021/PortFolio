@@ -1,26 +1,127 @@
-.edu-main{
-    /* width: 800px; */
+.tito{
+    height: 10vh;
+}
+.ug {
+    background-image: url('../assets/bgff.png'); /* Adjusted path */
+    background-color: #3d3a52; /* Fallback color */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background */
+    height: 60vh;
+    padding: 40px;
+}
 
+.ug-0 {
     display: flex;
-   flex-direction: row;
-    scrollbar-width: none;
-   
-    align-items: start;
-    justify-content: flex-start;
-    overflow: hidden;
-    /* overflow-x: scroll; */
+    gap: 10px;
+}
 
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px 0;
 }
-.ug{
-    /* display: block; */
-    width: 80vw;
+
+.arrow {
+    margin: 3px 0 0 7.8vw;
+}
+
+.year-h{
+    display: flex;
+}
+
+.Percent-h{
+    display: flex;
+}
+
+.year {
+    font-size: calc(10px + (32 - 24) * ((100vw - 320px) / (1600 - 320)));
+}
+
+@keyframes cap-animate {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.animated-cap {
+    animation: cap-animate 2s infinite;
+    transform: perspective(500px) rotateX(-10deg);
+    /* Simulate depth */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    /* Add shadow */
+}
+
+.ug-1 {
+    font-size: calc(30px + (32 - 24) * ((100vw - 320px) / (1600 - 320)));
+    font-family: "Edu AU VIC WA NT Hand";
+    font-weight: 600;
+}
+
+.ug-2 {
+    font-size: calc(16px + (32 - 24) * ((100vw - 320px) / (1600 - 320)));
+    font-family: "Finger Paint";
+    padding: 10px 0;
+    font-weight: 500;
+}
+
+.ug-3 {
+    font-size: calc(12px + (32 - 24) * ((100vw - 320px) / (1600 - 320)));
+}
+
+.hsc {
+    background-image: url('../assets/bgff.png'); /* Adjusted path */
+    background-color: #3d3a52; /* Fallback color */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background */
+    padding: 40px;
     height: 60vh;
 }
-.hsc{
-    width: 80vw;
+
+.ssc {
+    background-image: url('../assets/bgff.png'); /* Adjusted path */
+    background-color: #3d3a52; /* Fallback color */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background */
+    padding: 40px;
     height: 60vh;
 }
-.ssc{
-    width: 80vw;
-    height: 60vh;
+
+.card-slider {
+    min-height: 30vh;
+    aspect-ratio: 2/1;
+    margin: 0rem 0rem;
+    position: relative;
+    width: 70vw;
+}
+
+.slick-dots li.slick-active button:before {
+    font-size: 12px;
+    margin: 1px;
+    color: #ffffff;
+}
+
+.slick-dots li button::before {
+    margin: 1px;
+    font-size: 5px;
+    top: -6px;
+}
+
+.slick-prev:before {
+    display: none;
+}
+
+.slick-next:before {
+    display: none;
+}
+.slick-dots li button{
+    color: #ffffff;
 }

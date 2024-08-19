@@ -18,7 +18,7 @@ html {
 
 body {
   background: #23212f;
-  color: #c7c7c7;
+  color: #ffffff;
 }
 
 .intro {
@@ -31,6 +31,9 @@ body {
   scroll-snap-align: center;
   height: 100vh;
   font-family: "DM Sans";
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .education {
@@ -46,9 +49,12 @@ body {
   scroll-snap-align: center;
   height: 100vh;
   font-family: "DM Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.contact {
+.experience {
   scroll-snap-align: center;
   height: 100vh;
   font-family: "DM Sans";

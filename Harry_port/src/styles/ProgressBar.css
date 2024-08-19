@@ -1,0 +1,17 @@
+.progress-container-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f3f3f3; /* Background color of the progress container */
+    border-radius: 0;
+    padding: 0; /* No padding */
+    z-index: 9999; /* Ensure it stays on top of other elements */
+  }
+  
+  .progress-bar {
+    height: 4px; /* Adjust height as needed */
+    background-color: #ff0000; /* Color of the progress bar */
+    border-radius: 0;
+  }
+  

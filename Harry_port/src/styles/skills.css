@@ -1,0 +1,8 @@
+.skill-cont{
+    /* padding-top: 20px; */
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Edu AU VIC WA NT Hand";
+    display: flex;
+    justify-content: space-around;
+}

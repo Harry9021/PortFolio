@@ -1,19 +1,29 @@
-import './App.css'
-import Intro from './components/Intro'
-import Education from './components/Education'
+import "./App.css";
+import Intro from "./components/Intro";
+import Education from "./components/Education";
+import Projects from "./components/Projects";
+import ScrollProgressBar from "./components/ScrollProgressBar";
+import Skills from "./components/Skills";
 
 function App() {
-
-  return (
-    <>
-      <div className="intro"><Intro/></div>
-      <div className="projects">pro</div>
-      <div className="education"><Education/></div>
-      <div className="skills">skills</div>
-      <div className="contact"></div>
-      
-    </>
-  )
+    return (
+        <>
+            <ScrollProgressBar />
+            <div className="intro">
+                <Intro />
+            </div>
+            <div className="education">
+                <Education />
+            </div>
+            <div className="skills">
+                <Skills />
+            </div>
+            <div className="projects">
+                <Projects />
+            </div>
+            <div className="experience"></div>
+        </>
+    );
 }
 
-export default App
+export default App;

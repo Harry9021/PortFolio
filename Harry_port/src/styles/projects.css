@@ -1,0 +1,63 @@
+.project{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tito{
+    height: 10vh;
+}
+
+.pros{
+    width:1200px;
+    height: 600px;
+    background: linear-gradient(to bottom, #919191, #000000);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    
+}
+
+.pro-title{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Edu AU VIC WA NT Hand";
+}
+
+.pro-cont{
+    display: flex;
+}
+
+.pro-desc{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Edu AU VIC WA NT Hand";
+    padding: 50px 100px 0 0;     
+}
+
+.git-linker{
+    padding-top: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.emote{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Edu AU VIC WA NT Hand";
+    text-align: center;
+}
+
+.pro-duration{
+    font-size: medium;
+    font-weight: 500;
+    font-family: "Edu AU VIC WA NT Hand";
+    margin-top: 30px;
+}
+
+.pro-duration-dates{
+    display: flex;
+    
+}
